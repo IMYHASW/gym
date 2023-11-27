@@ -1,0 +1,46 @@
+.renewal_top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  flex: 0;
+  border-bottom: solid 1px var(--adm-color-primary);
+  background-color: var(--adm-color-primary);
+}
+
+.renewal_body {
+  flex: 1;
+  background-color: var(--adm-color-box);
+  margin-top: 45px;
+}
+
+.renewal_margin {
+  height: 1px;
+  background-color: var(--adm-color-box);
+}
+
+.renewal_footer {
+  margin-bottom: 50px;
+  --background-color: var(--adm-color-box);
+  font-size: var(--adm-font-size-3);
+  color: var(--adm-color-weak);
+}
+
+.renewal_card_body {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.renewal_card_context {
+  height: 50px;
+}
+
+.renewal_card_footer {
+  padding-top: 11px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.renewal_button {
+  position: relative;
+  float: right;
+}

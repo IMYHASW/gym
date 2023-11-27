@@ -1,0 +1,25 @@
+.setweight_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.setweight_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.setweight_form {
+    margin-top: 20px;
+}
+
+.setweight_footer {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: var(--adm-color-weak);
+}

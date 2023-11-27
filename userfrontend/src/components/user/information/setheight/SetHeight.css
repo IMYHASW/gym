@@ -1,0 +1,25 @@
+.setheight_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.setheight_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.setheight_form {
+    margin-top: 20px;
+}
+
+.setheight_footer {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: var(--adm-color-weak);
+}

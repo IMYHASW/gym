@@ -1,0 +1,61 @@
+.course_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-border);
+    background-color: var(--adm-color-primary);
+}
+
+.course_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+}
+
+.calendar {
+    position: fixed;
+    top: 45px;
+    width: 100%;
+    z-index: 9;
+    background-color: var(--adm-color-white);
+    border-bottom: solid 1px var(--adm-color-border);
+}
+
+.placeholder {
+    margin-top: 470px;
+    margin-bottom: 65px;
+}
+
+.card {
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.card-header {
+    border-bottom: 0;
+}
+
+.card-header-font {
+    font-weight: 'normal';
+    font-size: var(--adm-font-size-8);
+}
+
+.card-header-icon {
+    margin-right: 5px;
+    color: var(--adm-color-primary);
+}
+
+.card-body {
+    font-size: var(--adm-font-size-8);
+}
+
+.tag-left {
+    margin-left: 10px;
+}
+
+.noCourse {
+    margin-top: 10px;
+    font-size: var(--adm-font-size-8);
+    color: var(--adm-color-weak);
+}

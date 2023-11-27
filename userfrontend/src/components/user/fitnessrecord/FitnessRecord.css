@@ -1,0 +1,23 @@
+/*
+ * @Author: Wang Chao
+ * @Date: 2023-05-16 02:01:49
+ * @LastEditTime: 2023-05-16 02:10:25
+ * @LastEditors: Wang Chao
+ * @FilePath: /userfrontend/src/components/user/fitnessrecord/fitnessrecord.css
+ * @Description: 
+ */
+.fitnessrecord_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.fitnessrecord_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}

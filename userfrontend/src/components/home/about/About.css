@@ -1,0 +1,36 @@
+.about_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.about_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.about_text {
+    margin: 20px 5% 0 5%;
+    padding: 5%;
+    font-size: var(--adm-font-size-8);
+    background-color: var(--adm-color-white);
+    border-radius: 25px;
+    border: solid 1px var(--adm-color-border);
+}
+
+.about_img {
+    margin-top: 20px;
+    border-radius: 4%;
+}
+
+.about_footer {
+    margin-bottom: 50px;
+    --background-color: var(--adm-color-box);
+    font-size: var(--adm-font-size-3);
+    color: var(--adm-color-weak);
+}

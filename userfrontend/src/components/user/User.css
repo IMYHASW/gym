@@ -1,0 +1,24 @@
+.user_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.user_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.user_list {
+    --active-background-color: var(--adm-color-white);
+    --border-inner: 0px;
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 700;
+    color: var(--adm-color-primary);
+}

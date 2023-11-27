@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+}
+.all-container{
+    height: 100vh;
+}
+.my-context{
+    height: 100vh;
+}
+.introduce{
+    margin: 50px 15px 10px 15px;
+    background-color: gray;
+    text-align: center;
+    font-size: 15px;
+    height: 45px;
+    line-height: 45px;
+}
+.headname{
+    color: white;
+    font-family: "微软雅黑";
+    /* font-style: italic; */
+    font-size: 1.2rem;
+}
+.footnav{
+    font-family: serif;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-right{
+    /* padding-top: 30px !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right-detail{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    margin: 0 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bread{
+    margin: 0 20px;
+}

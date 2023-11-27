@@ -1,0 +1,32 @@
+/*
+ * @Author: Wang Chao
+ * @Date: 2023-05-16 02:01:49
+ * @LastEditTime: 2023-05-16 03:18:42
+ * @LastEditors: Wang Chao
+ * @FilePath: /userfrontend/src/components/user/activity/Activity.css
+ * @Description: 
+ */
+.activity_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.activity_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.activity_title {
+    padding: 20px;
+    background-color: var(--adm-color-white);
+}
+
+.activity_footer {
+    margin-bottom: 50px;
+}

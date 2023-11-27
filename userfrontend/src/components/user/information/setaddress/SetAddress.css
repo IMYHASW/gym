@@ -1,0 +1,24 @@
+.setaddress_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.setaddress_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.setaddress_form {
+    margin-top: 20px;
+}
+
+.setaddress_footer {
+    margin-left: 20px;
+    color: var(--adm-color-weak);
+}
