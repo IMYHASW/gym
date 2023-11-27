@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.login {
+    height: 100vh;
+    background-image: url('../../images/loginBackend.jpg');
+    background-size: 100% 100%;
+}
+
+.login-top {
+    flex: 0;
+    background-color: var(--adm-color-white);
+    border-bottom: solid 1px var(--adm-color-border);
+}
+
+.login-body {
+    margin: 0 3dvh;
+    background-color: var(--adm-color-white);
+    border-radius: 10px;
+}
+
+.login-icon {
+    margin-top: 8lvh;
+    text-align: center;
+    font-size: 80px;
+    color: var(--adm-color-primary);
+}
+
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 5lvh;
+}
+
+.eye {
+    padding: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+:root:root {
+  --adm-color-primary: brown;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

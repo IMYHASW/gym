@@ -1,0 +1,22 @@
+.vip_top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    flex: 0;
+    border-bottom: solid 1px var(--adm-color-primary);
+    background-color: var(--adm-color-primary);
+}
+
+.vip_body {
+    flex: 1;
+    background-color: var(--adm-color-box);
+    margin-top: 45px;
+}
+
+.vip_footer {
+    margin-bottom: 50px;
+    --background-color: var(--adm-color-box);
+    font-size: var(--adm-font-size-3);
+    color: var(--adm-color-weak);
+}

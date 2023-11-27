@@ -1,0 +1,17 @@
+.emplst{
+    margin: 30px 30px 0 30px;
+}
+.title{
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.addemployee{
+    position: relative;
+    top: 3.8%;
+}
+.updateemp{
+    position: relative;
+    top: 3.8%;
+}

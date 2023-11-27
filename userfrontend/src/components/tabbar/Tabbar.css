@@ -1,0 +1,8 @@
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--adm-color-white);
+    z-index: 9;
+    border-top: solid 1px var(--adm-color-border);
+}
